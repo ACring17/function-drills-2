@@ -102,7 +102,7 @@ const orders = [{ "price": 15, "tax": 0.09 }, { "price": 42, "tax": 0.07 }, { "p
 */
 
 // CODE HERE
-
+const totalsSum = orders.map(order => order.price + (order.price * order.tax))
 
 
 ////////// PROBLEM 6 //////////
