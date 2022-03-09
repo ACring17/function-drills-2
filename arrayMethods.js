@@ -123,3 +123,4 @@ const purchases = [{ "owner": "Barry", "price": 103 }, { "owner": "Bob", "price"
 */
 
 // CODE HERE
+const sumBobsTotal = purchases.filter(owner => purchases.owner === 'Bob').reduce((a, c) => a + c.price, 0)
